@@ -25,4 +25,4 @@ const usersRouters = require('./Routes/usersRouters')
 app.use('/usersRouters', usersRouters);
 
 // Set up Server Port
-app.listen(process.env.LOCALHOST_PORT || 5000, () => {console.log("server started on port 5000");})
+app.listen(process.env.LOCALHOST_PORT, () => {console.log("server started on port 5000");})
